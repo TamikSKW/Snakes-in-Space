@@ -199,7 +199,6 @@ while run_me:
     if keystore.getKeyValue(keystore, K_d):
         player1.right = True
         player1.change_velocity(euclid.Vector2(300.0, player1.velocity.y))
-        #problem with jumping.  Change to after collide reset jump
     if keystore.getKeyValue(keystore, K_w):
         if player1.velocity.y == 0:
             player1.change_velocity(euclid.Vector2(player1.velocity.x, -600.0))
