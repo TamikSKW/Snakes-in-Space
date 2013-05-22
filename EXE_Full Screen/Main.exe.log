@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "Main.py", line 88, in <module>
+pygame.error: Couldn't open fireball.png
+Traceback (most recent call last):
+  File "Main.py", line 88, in <module>
+pygame.error: Couldn't open fireball.png
